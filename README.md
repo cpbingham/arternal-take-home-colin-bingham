@@ -13,7 +13,7 @@ npm start
 ```
 Then open [http://localhost:3000/](http://localhost:3000/) to see the app running.
 
-To run the development version, build and server the application
+To run the development version, build and serve the application
 ```
 npm run build
 npm run serve
