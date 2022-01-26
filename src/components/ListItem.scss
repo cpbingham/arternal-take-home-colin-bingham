@@ -1,0 +1,39 @@
+ol {
+    padding: 0px;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    width: 25%;
+    min-height: 32px;
+
+    input:checked ~ button {
+        text-decoration: line-through;
+    }
+
+    input[type='text'] {
+        width: 100%;
+        border: none;
+        outline: none; 
+    }
+
+    .date-txt {
+        margin: 0;
+        font-size: 12px;
+        padding-left: 24px;
+    }
+    
+    .item-container {
+        display: flex;
+        word-break: break-all;
+        text-align-last: left;
+    }
+
+    .text-btn {
+        border: none;
+        background-color: #fff;
+    }
+}
